@@ -1,6 +1,6 @@
 # Bank Account Management System
 
-This project is a Bank Account Management System built using Spring Boot. It provides RESTful APIs to perform core banking operations such as creating an account, updating details, depositing money, withdrawing money, and fetching account information.
+This project is a Bank Account Management System built using Spring Boot. It provides RESTful APIs to perform core banking operations such as creating an account, depositing money, withdrawing money, and fetching account information.
 
 ## Technologies Used
  - Java 17+
@@ -22,8 +22,6 @@ This project is a Bank Account Management System built using Spring Boot. It pro
 
  - Get All Accounts – View details of all registered bank accounts.
 
- - Update Account – Modify user details (e.g., name, email).
-
  - Deposit Money – Add funds to an account.
 
  - Withdraw Money – Withdraw funds from an account (with balance validation).
@@ -41,7 +39,7 @@ This project is a Bank Account Management System built using Spring Boot. It pro
    - EndPoint : http://localhost:8081/api/accounts/{id}
 
  - Get all account details
-   - Method : POST
+   - Method : GET
    - EndPoint : http://localhost:8081/api/accounts
 
  - Deposit amount
@@ -66,7 +64,7 @@ This project is a Bank Account Management System built using Spring Boot. It pro
 
 ## Summary Of Project
 
-Developed a backend banking application that provides APIs to handle core account operations such as account creation, detail retrieval, deposit, withdrawal, and deletion. Implemented balance validation and exception handling to ensure robust operations. The system uses Spring Boot with Spring Data JPA and connects to a MySQL database.
+Developed a backend banking application that provides APIs to handle core account operations such as account creation, deposit, withdrawal, and deletion. Implemented balance validation and exception handling to ensure robust operations. The system uses Spring Boot with Spring Data JPA and connects to a MySQL database.
 
 
 
