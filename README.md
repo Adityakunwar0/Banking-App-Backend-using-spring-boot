@@ -67,4 +67,7 @@ This project is a Bank Account Management System built using Spring Boot. It pro
 Developed a backend banking application that provides APIs to handle core account operations such as account creation, deposit, withdrawal, and deletion. Implemented balance validation and exception handling to ensure robust operations. The system uses Spring Boot with Spring Data JPA and connects to a MySQL database.
 
 
+## Author
+### Aditya Kunwar
+Full Stack Developer | Passionate about building scalable and intelligent web apps
 
